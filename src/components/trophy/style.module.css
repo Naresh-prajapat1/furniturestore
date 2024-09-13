@@ -1,0 +1,26 @@
+.trophy {
+  background-color: #faf3ea;
+  padding: 100px 53px;
+}
+.t_trophy {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 5px;
+}
+.tt_content p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  margin: 0;
+  color: #898989;
+}
+.tt_content h4 {
+  margin: 0;
+  color: #242424;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 37.5px;
+  text-align: left;
+}

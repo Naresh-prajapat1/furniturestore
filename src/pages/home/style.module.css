@@ -1,0 +1,96 @@
+.cetagoryheading {
+  text-align: center;
+}
+.cetagoryheading h4 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+}
+.cetagoryheading p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.loadmore {
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product_card {
+  margin-bottom: 32px;
+}
+.furniture {
+  text-align: center;
+}
+.furniture .f_share {
+  color: #616161;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
+}
+.funiro_furniture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ff_inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* .ffi_left {
+} */
+.ffl_furniture1,
+.ffl_furniture2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 26px;
+}
+.fflf_fuero1 img {
+  width: 274px;
+  height: 382px;
+  object-fit: cover;
+}
+.fflf_fuero2 img {
+  width: 451px;
+  height: 321px;
+  object-fit: cover;
+}
+.fflf_fuero3 img {
+  width: 381px;
+  height: 323px;
+  object-fit: cover;
+}
+.fflf_fuero4 img {
+  width: 344px;
+  height: 242px;
+  object-fit: cover;
+}
+.ffi_center img {
+  width: 295px;
+  height: 392px;
+  object-fit: cover;
+}
+.fflf_fuero5 img {
+  width: 290px;
+  height: 384px;
+  object-fit: cover;
+}
+.fflf_fuero6 img {
+  width: 425px;
+  height: 433px;
+  object-fit: cover;
+}
+.fflf_fuero7 img {
+  width: 178px;
+  height: 242px;
+  object-fit: cover;
+}
+.fflf_fuero8 img {
+  width: 258px;
+  height: 196px;
+  object-fit: cover;
+}

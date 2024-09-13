@@ -1,0 +1,147 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000;
+  opacity: 0.7;
+  width: 100%;
+  height: 100%;
+  transition: all ease 0.3s;
+  /* transform: translateX(100%); */
+  z-index: 1;
+}
+.sc_wrap {
+  max-width: 456px;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9;
+  background-color: #fff;
+  /* padding: 40px; */
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  transition: all ease 0.3s;
+  /* transform: translateX(100%); */
+}
+.sc_productItem {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  flex: 1;
+}
+.scw_shop_card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 26px;
+  margin-bottom: 42px;
+  padding: 28px;
+}
+.scwsc_title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: left;
+}
+.sc_products {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 28px;
+}
+.scp_image {
+  background-color: #f9f1e7;
+  border-radius: 10px;
+  padding: 5px;
+}
+.scp_image img {
+  width: 80px;
+  height: 96px;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+}
+.scp_name {
+  /* flex-grow: 3; */
+  margin-left: 10px;
+}
+.scp_name h5 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  width: 220px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.scp_name span {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: left;
+}
+.scpn_price {
+  color: #b88e2f;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: left;
+}
+.scp_delete button {
+  border: none;
+  background-color: transparent;
+}
+/* .scp_delete {
+}
+.sc_subtitle {
+}
+.scs_totle {
+} */
+.scst_price {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.scst_price h6 {
+  flex-grow: 1;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.scst_price p {
+  margin: 0;
+  flex-grow: 2;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #b88e2f;
+}
+.sc_subtitle {
+  background-color: transparent;
+  padding: 20px 0;
+}
+.scst_price {
+  padding: 28px;
+}
+.scs_btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #d9d9d9;
+
+  /* margin-top: 23px; */
+  padding: 28px;
+}
+.scs_btn button {
+  border: 1px solid;
+  padding: 10px 30px;
+  border-radius: 50px;
+}

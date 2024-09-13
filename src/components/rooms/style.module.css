@@ -1,0 +1,32 @@
+.rooms {
+  background: #fcf8f3;
+  padding: 44px 0;
+  /* height: 600px; */
+  /* padding: 150px 0; */
+}
+.r_details {
+  padding: 100px 0;
+}
+.rd_descr {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #616161;
+  margin-top: 7px;
+  margin-bottom: 25px;
+}
+.ri_image1 .rii_slider1 img {
+  width: 100%;
+  object-fit: contain;
+}
+.ri_image1 {
+  position: relative;
+}
+.rii_content {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  background-color: #fff;
+  padding: 5px;
+}

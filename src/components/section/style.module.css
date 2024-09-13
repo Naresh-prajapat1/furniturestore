@@ -1,0 +1,49 @@
+.section {
+  background-color: #ffffff;
+  /* padding-top: 100px; */
+  /* padding-bottom: 100px; */
+  position: relative;
+}
+
+.bg_gray {
+  background-color: #f8f9fc;
+}
+
+.bg_black {
+  background-color: #000;
+}
+
+.p_0 {
+  padding: 0;
+}
+
+.pt_100 {
+  padding: 30px;
+}
+.pt_120 {
+  padding: 40px;
+}
+.pt_140 {
+  padding: 50px;
+}
+.pt_200 {
+  padding: 60px;
+}
+
+.pb_100 {
+  padding: 30px;
+}
+.pb_120 {
+  padding: 40px;
+}
+.pb_140 {
+  padding: 50px;
+}
+.pb_200 {
+  padding: 60px;
+}
+
+.bgImg {
+  background-repeat: no-repeat;
+  background-size: cover;
+}

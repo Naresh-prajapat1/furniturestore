@@ -1,0 +1,59 @@
+.bread_curmb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 121px 0;
+  position: relative;
+}
+.bc_over {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  opacity: 0.6;
+}
+.bc_items {
+  position: relative;
+  z-index: 1;
+}
+.bc_items h4 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 72px;
+  text-align: left;
+  color: #000;
+}
+.bc_pages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+.bc_pages li {
+  position: relative;
+  list-style: none;
+}
+.bc_pages li::after {
+  position: absolute;
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-top: 1px solid;
+  border-left: 1px solid;
+  top: 10px;
+  transform: rotate(135deg);
+  right: -18px;
+}
+.bc_pages li a {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #000;
+  text-decoration: none;
+}

@@ -1,0 +1,124 @@
+.ctp_ppqs table {
+  width: 100%;
+  display: block;
+  height: 500px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.ctp_ppqs table tr td {
+  width: 100%;
+}
+.ctp_ppqs_table {
+  background-color: #f9f1e7;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ctp_ppqs_table td {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+}
+
+.ctp_ppqs_product {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ctp_ppqs_product td {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #9f9f9f;
+}
+.ctpppqsp_image img {
+  max-width: 108px;
+  width: 100%;
+  background: #d9d9d9;
+  border-radius: 10px;
+}
+/* .ctpppqsp_cunt {
+} */
+.ctpppqsp_cunt span {
+  text-align: center;
+  border: 1px solid #9f9f9f;
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: #000;
+}
+.ctppp_btn button {
+  background-color: transparent;
+  border: none;
+}
+.ct_sub_totle {
+  padding: 15px 75px 80px;
+  background: #f9f1e7;
+}
+.ct_sub_totle h4 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: left;
+  margin-bottom: 60px;
+}
+.ctst_sub {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 62px;
+  margin-bottom: 30px;
+}
+.ctsts_title {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+}
+.ctsts_price {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #9f9f9f;
+}
+.ctst_totle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 58px;
+  margin-bottom: 48px;
+}
+.ctsts_price1 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: #b88e2f;
+}
+.ctst_checkout button {
+  padding: 10px 40px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  border: 1px solid;
+  background-color: transparent;
+  border-radius: 15px;
+}
+.ctst_checkout {
+  text-align: center;
+}
+.ctpppqsp_cunt input {
+  max-width: 50px;
+  width: 100%;
+}
+.ctp_title {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

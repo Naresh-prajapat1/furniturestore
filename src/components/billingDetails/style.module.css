@@ -1,0 +1,187 @@
+.bd_info_box {
+  padding: 35px 80px 0 75px;
+}
+.bd_info_box .bib_title {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: left;
+}
+.bib_nameinput {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 31px;
+}
+.bibni_name,
+.bibni_last {
+  width: 100%;
+}
+.bibni_name label,
+.bibni_last label,
+.bibni_comp label,
+.bibni_country label,
+.bibni_stree label {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 22px;
+  margin-top: 36px;
+}
+.bibni_name input,
+.bibni_last input,
+.bibni_comp input,
+.bibni_country select,
+.bibni_stree input,
+.bibni_add_info input {
+  width: 100%;
+  padding: 15px 0;
+  border-radius: 10px;
+  border: 1px solid #9f9f9f;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.bibni_add_info {
+  margin-top: 66px;
+}
+
+.bd_product_totle {
+  padding: 87px 30px 0 100px;
+}
+.bdpt_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bdpt_title {
+  margin-bottom: 14px;
+}
+.bdpt_title h5 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+}
+.bdpt_product_conut {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+.bdptpc_title {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #9f9f9f;
+}
+
+.bdpt_product_conut1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+.bdpt_product_conut1 .bdptpc_title1 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.bdpt_product_conut2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+.bdptpc_price2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  color: #b88e2f;
+}
+
+.bt_direct,
+.bt_direct1 {
+  margin-bottom: 25px;
+}
+.btd_point {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+.bt_direct span.btd_dot {
+  display: inline-block;
+  border: 1px solid;
+  width: 20px;
+  height: 20px;
+  background-color: #000;
+  border-radius: 100px;
+  margin-right: 15px;
+}
+.bt_direct span.btd_title {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  display: inline-block;
+}
+.btd_desc {
+  display: none;
+  color: #9f9f9f;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: justified;
+}
+.btd_dot1,
+.btd_dot2 {
+  display: inline-block;
+  border: 1px solid;
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  margin-right: 15px;
+}
+span.btd_title1,
+span.btd_title2 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #9f9f9f;
+}
+.privacy {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.place_btn_oder {
+  margin-top: 40px;
+  text-align: center;
+}
+.place_btn_oder button {
+  border: 1px solid;
+  padding: 15px 50px;
+  background-color: transparent;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.openToggle {
+  display: block;
+}
+@media (max-width: 770px) {
+  .bd_info_box {
+    padding: 0px;
+  }
+  .bd_product_totle {
+    padding: 0;
+  }
+}

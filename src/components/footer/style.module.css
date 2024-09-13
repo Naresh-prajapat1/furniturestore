@@ -1,0 +1,79 @@
+.footer {
+  border-top: 1px solid;
+  padding: 48px 0;
+}
+/* .f_address {
+} */
+.fa_logo {
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+}
+.fa_address {
+  margin-top: 50px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #9f9f9f;
+}
+/* .link {
+} */
+.l_links,
+.l_helpName,
+.ns_new {
+  color: #9f9f9f;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+}
+.l_list_links,
+.l_list_help {
+  list-style: none;
+}
+.l_list_links a,
+.l_list_help {
+  margin-top: 55px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 46px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #000;
+  text-decoration: none;
+}
+.ns_email {
+  margin-top: 55px;
+}
+.ns_email input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid;
+}
+.ns_email button {
+  margin-left: 11px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+}
+.all_right {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #000;
+}
+hr {
+  margin: 48px 0;
+}

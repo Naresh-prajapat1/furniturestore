@@ -1,0 +1,103 @@
+.li_log {
+  background: #f7f7fa;
+  padding: 31px 50px;
+  position: relative;
+  z-index: 1;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.li_google {
+  width: 100%;
+  border: 1px solid #e1e1e1;
+  background-color: #fff;
+  border-radius: 5px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+.li_google svg {
+  margin-right: 10px;
+}
+.li_google .lig_link a {
+  text-decoration: none;
+}
+
+.li_or {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.li_or span {
+  /* background-color: antiquewhite; */
+  background: #f7f7fa;
+
+  padding: 10px;
+}
+.li_or::after {
+  position: absolute;
+  content: "";
+  border: 1px solid #e1e1e1;
+  width: 100%;
+  top: 24px;
+  z-index: -1;
+}
+.li_name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.li_email,
+.li_password {
+  width: 100%;
+}
+.li_email .lie_email,
+.lin_input_name .linin_name,
+.lin_input_lastname .linin_lname,
+.li_password .lie_password {
+  width: 100%;
+  border: 1px solid #e1e1e1;
+  height: 50px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+.li_password label,
+.li_email label,
+.lin_input_name label,
+.lin_input_lastname label {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: left;
+}
+.li_password,
+.li_email {
+  margin-top: 25px;
+}
+.li_forget {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.lif_remember .checkbox {
+  margin-right: 4px;
+}
+.li_singin {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.li_button {
+  display: flex;
+  justify-content: center;
+}

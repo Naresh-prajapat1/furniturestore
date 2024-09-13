@@ -1,0 +1,66 @@
+.button {
+  display: inline-block;
+  background: #b88e2f;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  padding: 25px 72px;
+}
+.button a {
+  /* width: 100%; */
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17.92px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button a svg,
+.fill a svg {
+  margin-left: 10px;
+}
+.fill {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 15px 40px;
+
+  border: 1px solid #b88e2f;
+}
+/* .outline{} */
+.fill a {
+  color: #b88e2f;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17.92px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inline_block {
+  display: inline-block;
+}
+.block {
+  display: block;
+}
+.button_type {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 15px 40px;
+  border: 1px solid #b88e2f;
+  color: #b88e2f;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}

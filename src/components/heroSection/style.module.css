@@ -1,0 +1,55 @@
+.hero_section {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 157px 58px 186px 800px;
+  /* padding-bottom: 116px; */
+  /* position: relative; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hs_inner {
+  background: #fff3e3;
+  max-width: 643px;
+  width: 100%;
+  padding: 62px 43px 37px 39px;
+  border-radius: 6px;
+}
+.hsic_topheading {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 3px;
+  text-align: left;
+  margin-bottom: 4px;
+  color: #333333;
+}
+.hsic_mainheading {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 65px;
+  margin-bottom: 17px;
+  text-align: left;
+  color: #b88e2f;
+}
+.hsic_description {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 46px;
+  color: #333333;
+}
+@media (max-width: 1024px) {
+  .hero_section {
+    padding: 0;
+  }
+}
+@media (max-width: 425px) {
+  .hero_section {
+    padding: 0;
+  }
+}
